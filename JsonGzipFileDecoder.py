@@ -32,7 +32,7 @@ def list_blobs(bucket_name):
 		})
 
 
-list_blobs('rokin-articles');
+list_blobs('bucket_name');
 
 #terminal shows content in file
 '''with gzip.GzipFile(blob, 'r') as fin:   
