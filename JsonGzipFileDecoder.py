@@ -16,7 +16,7 @@ bucket = client.get_bucket('Bucket')
 table=[]
 
 
-#insert decompressed file as 
+#insert decompressed file as firestore data
 def list_blobs(bucket_name):
 	blobs = client.list_blobs(bucket_name)
 	for blob in blobs:
